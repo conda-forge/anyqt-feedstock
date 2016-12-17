@@ -1,6 +1,6 @@
 {% set name = "AnyQt" %}
-{% set version = "0.0.6" %}
-{% set sha256 = "40a77fd166cb2d9ba04c01b892fa646d93affedfea96ad8411995b0b7cd5db9d" %}
+{% set version = "0.0.7" %}
+{% set sha256 = "d5eb93921079f59acbf2381286eed7a86781993cc8232eaefcbd83338cae8da7" %}
 
 package:
   name: {{ name|lower }}
@@ -38,7 +38,7 @@ about:
   license: GPL-3.0
   license_family: GPL3
   summary: PyQt4/PyQt5 compatibility layer.
-  doc_url: http://anyqt.readthedocs.io/en/0.0.6/
+  doc_url: http://anyqt.readthedocs.io/en/0.0.7/
   dev_url: https//github.com/ales-erjavec/anyqt
 
 extra:
