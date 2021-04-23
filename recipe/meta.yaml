@@ -37,9 +37,8 @@ test:
 
 about:
   home: https://github.com/ales-erjavec/anyqt/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_file: LICENSE.txt
-  license_family: GPL3
   summary: PyQt4/PyQt5 compatibility layer.
   doc_url: http://anyqt.readthedocs.io/en/0.0.7/
   dev_url: https//github.com/ales-erjavec/anyqt
