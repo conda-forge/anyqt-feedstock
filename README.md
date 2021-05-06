@@ -3,7 +3,7 @@ About anyqt
 
 Home: https://github.com/ales-erjavec/anyqt/
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/anyqt-feedstock/blob/master/LICENSE.txt)
 
