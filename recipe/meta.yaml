@@ -1,6 +1,6 @@
 {% set name = "AnyQt" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "aa261a28c3da6e7d9cee16fab209343b272b9f7ab39ad42ae02dc1687834c402" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "271aee5fd216c14f044917ecc978fadf8b8cd89ecc61060689f0920e51c56276" %}
 
 package:
   name: {{ name|lower }}
