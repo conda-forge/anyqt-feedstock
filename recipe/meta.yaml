@@ -1,6 +1,6 @@
 {% set name = "AnyQt" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "4b9228b918a26df2fdcc61f135db548ad3c3036e5bc7e67ba8147e0b6683763b" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "a9ed7c5169691a105ef2cea9114d6f8d439875b807d7258a2107f55cb56483f6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
 
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
