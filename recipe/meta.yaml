@@ -25,11 +25,11 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - pyqt
 
 test:
   requires:
     - python {{ python_min }}
+    - pyqt6
   imports:
     - AnyQt.QtCore
     - AnyQt.QtGui
